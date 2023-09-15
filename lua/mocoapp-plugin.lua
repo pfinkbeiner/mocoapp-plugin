@@ -187,8 +187,7 @@ end
 
 M.enter_description = function(project_id, task_id, date, time)
   vim.ui.input({ prompt= "Task description:"}, function(description)
-    local escaped_description = string.gsub(description, "#", "\\#")
-    M.save(project_id, task_id, date, time, escaped_description)
+    M.save(project_id, task_id, date, time, description)
   end)
 end
 
