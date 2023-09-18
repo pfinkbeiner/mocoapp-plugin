@@ -22,7 +22,7 @@ Plug 'pfinkbeiner/mocoapp-plugin'
 ### Using Packer
 
 ```
-use {'pfinkebienr/mocoapp-plugin'}
+use {'pfinkbeiner/mocoapp-plugin'}
 ```
 
 ### Manually
